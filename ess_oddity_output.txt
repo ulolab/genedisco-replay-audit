@@ -1,0 +1,26 @@
+
+=== IL2: genes 18939, pool 16730, hits 654, hits∩CEGv2 173, N/E hits 481, N/E hits in pool 437
+ hit score sign: pos 484 neg 170
+ CEGv2 in pool 614
+ mean essentiality pct: N/E hits 0.697, other pool 0.490
+ ess top640 all 0.277 ne 0.137; CEGv2 among top640: 373
+ N/E hits picked (66): RPL17(+0.49,eff=-2.07), RPL37(+0.68,eff=-2.03), PSMD7(+0.57,eff=-2.00), RRM2(+0.50,eff=-1.90), RUVBL1(+0.56,eff=-1.78), SNRPB(+0.36,eff=-1.76), RPL9(+0.44,eff=-1.74), RFC3(+0.50,eff=-1.64), CDC23(+0.75,eff=-1.62), RBM22(+0.61,eff=-1.61), ZMAT2(+0.45,eff=-1.61), GINS1(+0.47,eff=-1.59), RPS17(+0.82,eff=-1.57), RPS3A(+0.39,eff=-1.57), POLD3(+0.52,eff=-1.56), MTBP(+0.57,eff=-1.53), RPL32(+0.68,eff=-1.53), DUT(+0.44,eff=-1.52), RPL7A(+0.61,eff=-1.52), PCBP2(+0.67,eff=-1.48), PSMD6(+0.43,eff=-1.48), THAP1(+0.35,eff=-1.48), CDC7(+0.62,eff=-1.46), RPS27A(+0.48,eff=-1.46), POLE(+0.57,eff=-1.45), FBL(+0.40,eff=-1.44), RPL23A(+0.79,eff=-1.43), RPL31(+0.40,eff=-1.42), RBM25(+0.47,eff=-1.41), PRC1(+0.38,eff=-1.39), RPS24(+0.83,eff=-1.38), ATP1A1(+0.63,eff=-1.36), PRPF6(+0.45,eff=-1.36), PDCD11(+0.43,eff=-1.35), NOC3L(+0.34,eff=-1.33), RPS25(+0.49,eff=-1.32), PCBP1(+0.73,eff=-1.31), WDR5(+0.82,eff=-1.31), RPL15(+0.92,eff=-1.30), RPL26(+0.99,eff=-1.30), CENPN(+0.40,eff=-1.28), DDX54(+0.39,eff=-1.27), PPP1R8(+0.62,eff=-1.27), RPS14(+0.60,eff=-1.27), SNRPC(+1.25,eff=-1.25), FCF1(+0.40,eff=-1.23), CDC6(+0.47,eff=-1.22), BOP1(+0.51,eff=-1.22), RRN3(+0.35,eff=-1.20), BMS1(+0.56,eff=-1.20), SMC3(+0.96,eff=-1.19), TARDBP(-0.46,eff=-1.18), SCFD1(+0.46,eff=-1.17), MFAP1(+0.42,eff=-1.17), CHMP5(+0.68,eff=-1.16), NOB1(+0.38,eff=-1.16), SEM1(+0.35,eff=-1.14), PMF1(+0.44,eff=-1.13), NRDE2(+0.66,eff=-1.13), TUBGCP5(+0.67,eff=-1.12), RPL34(+0.67,eff=-1.12), PSMD2(+0.77,eff=-1.12), THOC1(+0.43,eff=-1.11), DDX23(+0.60,eff=-1.11), COPE(+0.36,eff=-1.11), SRP72(-0.55,eff=-1.10)
+ N/E hits with Achilles effect<-0.5: 167 / 437; picked ones that are strong: 66
+  prior_essentiality   n=10 NE=0.137 NE_strict(post-hoc)=0.000 frac_of_NEhits_that_are_strong_ess=1.00
+  ulo_pgp_noprior      n=10 NE=0.116 NE_strict(post-hoc)=0.074 frac_of_NEhits_that_are_strong_ess=0.54
+  gd_coreset           n=10 NE=0.086 NE_strict(post-hoc)=0.044 frac_of_NEhits_that_are_strong_ess=0.66
+  random               n=10 NE=0.035 NE_strict(post-hoc)=0.031 frac_of_NEhits_that_are_strong_ess=0.42
+  prior_pathway        n=10 NE=0.075 NE_strict(post-hoc)=0.080 frac_of_NEhits_that_are_strong_ess=0.31
+
+=== IFNG: genes 18418, pool 17327, hits 920, hits∩CEGv2 118, N/E hits 802, N/E hits in pool 763
+ hit score sign: pos 431 neg 489
+ CEGv2 in pool 626
+ mean essentiality pct: N/E hits 0.597, other pool 0.492
+ ess top640 all 0.136 ne 0.060; CEGv2 among top640: 367
+ N/E hits picked (48): RPL37(+0.77,eff=-2.03), RPS29(+0.52,eff=-1.81), RPL9(+0.59,eff=-1.74), AARS1(-0.40,eff=-1.69), RBM22(-0.41,eff=-1.61), GINS1(+0.42,eff=-1.59), RPS17(+0.67,eff=-1.57), SFPQ(-0.57,eff=-1.54), RPL32(+0.76,eff=-1.53), SDE2(+0.67,eff=-1.52), PCBP2(+0.91,eff=-1.48), PSMD6(-0.62,eff=-1.48), RPS27A(+0.59,eff=-1.46), FBL(+0.43,eff=-1.44), SEC61A1(-1.24,eff=-1.43), WBP11(-0.52,eff=-1.42), DHDDS(-0.71,eff=-1.42), RPS24(+0.59,eff=-1.38), ATP1A1(+0.79,eff=-1.36), PDCD11(+0.49,eff=-1.35), HSPA5(-0.61,eff=-1.33), PCBP1(+0.51,eff=-1.31), RPL26(+0.98,eff=-1.30), GTF2A2(+0.54,eff=-1.28), PPP1R8(+0.50,eff=-1.27), THOC7(+0.52,eff=-1.27), RPS14(+0.40,eff=-1.27), CAPZB(-0.41,eff=-1.27), SPPL2B(+0.39,eff=-1.25), PABPN1(-0.61,eff=-1.22), UBA2(-1.12,eff=-1.21), RRN3(+0.41,eff=-1.20), EIF2B2(-0.82,eff=-1.20), SMC3(+0.70,eff=-1.19), RAD9A(-0.40,eff=-1.18), RBBP5(-0.47,eff=-1.17), SCFD1(-0.51,eff=-1.17), MFAP1(+0.90,eff=-1.17), LSM3(+0.61,eff=-1.17), NAA15(+0.58,eff=-1.16), CHMP5(+0.42,eff=-1.16), NOB1(+0.68,eff=-1.16), NRDE2(+0.50,eff=-1.13), EIF3M(+0.50,eff=-1.13), IARS2(-0.56,eff=-1.13), CACTIN(-0.53,eff=-1.12), ELP1(-0.53,eff=-1.12), PSMD2(+0.68,eff=-1.12)
+ N/E hits with Achilles effect<-0.5: 161 / 763; picked ones that are strong: 48
+  prior_essentiality   n=10 NE=0.060 NE_strict(post-hoc)=0.000 frac_of_NEhits_that_are_strong_ess=1.00
+  ulo_pgp_noprior      n=10 NE=0.078 NE_strict(post-hoc)=0.070 frac_of_NEhits_that_are_strong_ess=0.29
+  gd_coreset           n=10 NE=0.074 NE_strict(post-hoc)=0.046 frac_of_NEhits_that_are_strong_ess=0.51
+  random               n=10 NE=0.037 NE_strict(post-hoc)=0.036 frac_of_NEhits_that_are_strong_ess=0.23
+  prior_pathway        n=10 NE=0.069 NE_strict(post-hoc)=0.075 frac_of_NEhits_that_are_strong_ess=0.13
