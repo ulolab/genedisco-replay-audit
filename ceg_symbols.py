@@ -1,5 +1,5 @@
 import sys, numpy as np, pandas as pd
-sys.path.insert(0, "/workspace/ulo-replay/replay")
+sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
 from common import load_screen, ROOT
 ceg = pd.read_csv(f"{ROOT}/BioDiscoveryAgent/CEGv2.txt", sep="\t")
 h = pd.read_csv(f"{ROOT}/cache/hgnc_mapping.tsv", sep="\t", usecols=["hgnc_id","symbol"], dtype=str)

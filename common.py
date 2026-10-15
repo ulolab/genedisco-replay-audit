@@ -1,6 +1,7 @@
 """Shared: BDA-protocol data + scoring. Hit lists/ground truth come unmodified from BioDiscoveryAgent/datasets."""
 import numpy as np, pandas as pd, os, json
-ROOT = "/workspace/ulo-replay"
+import os
+ROOT = os.environ.get("ULO_ROOT", os.path.dirname(os.path.abspath(__file__)))
 BDA = f"{ROOT}/BioDiscoveryAgent"
 BATCH, ROUNDS = 128, 5
 

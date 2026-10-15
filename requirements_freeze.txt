@@ -7,7 +7,7 @@ dataclasses-json==0.6.7
 filelock==3.19.1
 fonttools==4.60.2
 fsspec==2025.10.0
--e file:///workspace/ulo-replay/genedisco
+-e ./genedisco  # GeneDisco at commit f2ee622, cloned into the repo root
 h5py==3.14.0
 idna==3.20
 ilock==1.0.3

@@ -1,5 +1,5 @@
 import sys, json, glob, numpy as np, pandas as pd
-sys.path.insert(0, "/workspace/ulo-replay/replay")
+sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
 from common import load_screen, hit_ratio, ROOT
 for scr in ["IL2", "IFNG"]:
     g, hits, ess = load_screen(scr)

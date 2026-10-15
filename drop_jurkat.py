@@ -1,5 +1,5 @@
 import sys, numpy as np, pandas as pd
-sys.path.insert(0, "/workspace/ulo-replay/replay")
+sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
 from common import load_screen, hit_ratio, ROOT
 A = pd.read_csv(f"{ROOT}/cache/achilles.csv", index_col=0); A.columns=[c.split(" (")[0] for c in A.columns]
 for scr in ["IL2","IFNG"]:
