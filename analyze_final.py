@@ -21,7 +21,7 @@ P(f"Seeds required: 0-9. Incomplete methods: {missing or 'none'}. Under-budget (
 P("| method | N/E mean ± SD | All mean ± SD | Jaccard vs prior_pathway | Jaccard vs prior_essentiality | mean sec/run |")
 P("|---|---|---|---|---|---|")
 stats = {}
-for m in sorted(complete, key=lambda m: -np.mean([hr(m, s, 1) for s in seeds])):
+for m in sorted(complete, key=lambda m: (-np.mean([hr(m, s, 1) for s in seeds]), m)):  # name breaks ties (set order varies with PYTHONHASHSEED)
     ne = np.array([hr(m, s, 1) for s in seeds]); al = np.array([hr(m, s, 0) for s in seeds])
     jp = np.mean([jac(R[m][s]["rounds"][-1], R["prior_pathway"][s]["rounds"][-1]) for s in seeds])
     je = np.mean([jac(R[m][s]["rounds"][-1], R["prior_essentiality"][s]["rounds"][-1]) for s in seeds])

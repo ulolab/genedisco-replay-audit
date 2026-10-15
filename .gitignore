@@ -1,1 +1,11 @@
 __pycache__/
+# external inputs (not shipped); entries without a trailing slash also match symlinks
+cache/
+/cache
+/priors
+/BioDiscoveryAgent
+/genedisco
+/.venv
+logs/
+runs/gd_work/
+runs/rerun_*/
